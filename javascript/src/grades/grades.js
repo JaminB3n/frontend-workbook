@@ -14,3 +14,5 @@ function getGrade(score) {
 
   return grade;
 }
+
+export { getGrade };
