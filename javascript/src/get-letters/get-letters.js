@@ -12,6 +12,22 @@ You can get the letter at some index  i in s  using the syntax s[i] or s.charAt(
 function getLetter(s) {
   let letter;
   // Write your code here
+  let a = ('a','e','i','o','u'),
+      b = ('b','c','d','f','g'),
+      c = ('h','j','k','l','m'),
+      d = ('n','p','q','r','s','t','u','v','w','x','y','z');
+  if(s[0] == a){
+    letter = 'A';
+  }
+  else if (s[0] == b){
+    letter= 'B';
+  }
+  else if(s[0] == c){
+    letter = 'c';
+  }
+  else if(s[0] == d){
+    letter = 'D';
+  }
 
   return letter;
 }
