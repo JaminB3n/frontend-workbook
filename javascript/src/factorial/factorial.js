@@ -3,20 +3,23 @@
  *  example: 4!  = 4 * 3 * 2 * 1
  */
 
-function factorial(){
-    let res = 1;
-    let fac = 5;
 
-    for(i = 0; i < fac; i++){
-        res = res * (fac - i);
-        console.log(res);
-    }
-    
+
+/*
+function factorial(n){
+    return (n != 1) ? n * factorial(n-1) : 1;
 }
-factorial();
+*/
 
+function factorial(n) 
+{ 
 
+  if (n === 0)
+ {
+    return 1;
+ }
+  return n * factorial(n-1);
+         
+}
 
-
-// Wanna try to get user input readline/prompt to calc factorial
-
+export{factorial};
