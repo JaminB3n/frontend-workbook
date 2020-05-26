@@ -1,4 +1,4 @@
-import { getGrade } from "./getGrade";
+import { getGrade } from "./grades";
 
 describe("Conditionals", () => {
   describe("grades", () => {
