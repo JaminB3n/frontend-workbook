@@ -30,9 +30,9 @@ function getGrade(score) {
   else if(score > 0 && score <= 5){
     grade = "F";
   }
-  //console.log(this.grade);
+ 
   return grade;
 }
 
-//getGrade(score[25]);
+
 export { getGrade };
